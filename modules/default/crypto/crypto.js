@@ -13,7 +13,7 @@ Module.register("crypto", {
 		loadCryptos();
 		setInterval(function() {
 			loadCryptos();
-		}, (this.config.updateInterval) ? this.config.updateInterval : 5000);
+		}, (self.config.updateInterval && self.config.updateInterval >= 5000) ? self.config.updateInterval : 30000);
 	},
 
 	resetColors: function(name) {
@@ -98,7 +98,7 @@ Module.register("crypto", {
 		}
 
 		this.loaded = true;
-		this.updateDom(self.config.animationSpeed);
+		this.updateDom(0);
 	},
 
 	getCryptoCurrencies: function() {

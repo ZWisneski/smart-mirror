@@ -13,6 +13,8 @@
 
 MagicMirror² focuses on a modular plugin system and uses [Electron](http://electron.atom.io/) as an application wrapper. So no more web server or browser installs necessary!
 
+<img src="/docs/smart-mirror.PNG" align="center" width="80%" style="margin: 50px auto; display: block;" />
+
 ## Table Of Contents
 
 - [Usage](#usage)
@@ -109,6 +111,7 @@ The following modules are installed by default.
 - [**Compliments**](modules/default/compliments)
 - [**Hello World**](modules/default/helloworld)
 - [**Alert**](modules/default/alert)
+- [**Crypto**](modules/default/crypto)
 
 For more available modules, check out out the wiki page: [MagicMirror² Modules](https://github.com/MichMich/MagicMirror/wiki/MagicMirror²-Modules). If you want to build your own modules, check out the [MagicMirror² Module Development Documentation](modules) and don't forget to add it to the wiki and the [forum](https://forum.magicmirror.builders/category/7/showcase)!
 
@@ -116,25 +119,3 @@ For more available modules, check out out the wiki page: [MagicMirror² Modules]
 
 - Electron seems to have some issues on certain Raspberry Pi 2's. See [#145](https://github.com/MichMich/MagicMirror/issues/145).
 - MagicMirror² (Electron) sometimes quits without an error after an extended period of use. See [#150](https://github.com/MichMich/MagicMirror/issues/150).
-
-## Community
-
-The community around the MagicMirror² is constantly growing. We even have a [forum](https://forum.magicmirror.builders) now where you can share your ideas, ask questions, help others and get inspired by other builders. We would love to see you there!
-
-## Contributing Guidelines
-
-Contributions of all kinds are welcome, not only in the form of code but also with regards bug reports and documentation.
-
-Please keep the following in mind:
-
-- **Bug Reports**:  Make sure you're running the latest version. If the issue(s) still persist: please open a clearly documented issue with a clear title.
-- **Minor Bug Fixes**: Please send a pull request with a clear explanation of the issue or a link to the issue it solves.
-- **Major Bug Fixes**: please discuss your approach in an GitHub issue before you start to alter a big part of the code.
-- **New Features**: please please discuss in a GitHub issue before you start to alter a big part of the code. Without discussion upfront, the pull request will not be accepted / merged.
-
-Thanks for your help in making MagicMirror² better!
-
-<p align="center">
-<br>
-	<a href="https://forum.magicmirror.builders/topic/728/magicmirror-is-voted-number-1-in-the-magpi-top-50"><img src="https://magicmirror.builders/img/magpi-best-watermark-custom.png" width="150" alt="MagPi Top 50"></a>
-</p>
