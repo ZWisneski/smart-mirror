@@ -2,7 +2,7 @@
 The `crypto` module is a custom module built into the defaults for MagicMirror.
 This module displays the configured cryptocurrency symbols and prices, and are updated based on users configuration. Because crypto icons can be any color meaning not all display on the black background, you have to specify the icon urls necessary to ensure a clean look up to your standards.
 
-<img src="/docs/smart-mirror-crypto.png" style="margin: 0 auto; display: block;" width="40%" />
+<img src="/docs/smart-mirror-crypto.PNG" style="margin: 0 auto; display: block;" width="40%" />
 
 ## Using the module
 
