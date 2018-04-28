@@ -9,40 +9,40 @@ This module displays the configured cryptocurrency symbols and prices, and are u
 To use this module, add it to the modules array in the `config/config.js` file:
 ````javascript
 modules: [
-	{
-		module: 'crypto',
-		header: 'Cryptocurrency Market',
-		position: 'top_right', // This can be in any location. Best is left or right layouts.
-		config: {
-			cryptos: [
-				{
-					code: 'BTC',
-					displayName: 'Bitcoin',
-					iconUrl: 'https://coinwink.com/coins/128x128/bitcoin.png'
-				},
-				{
-					code: 'ETH',
-					displayName: 'Ethereum',
-					iconUrl: 'https://coinwink.com/coins/128x128/ethereum.png'
-				},
-				{
-					code: 'PLR',
-					displayName: 'Pillar',
-					iconUrl: 'https://pillarproject.io/wp-content/uploads/2018/02/pillarproject.jpg'
-				},
-				{
-					code: 'PPP',
-					displayName: 'PayPie',
-					iconUrl: 'https://coinwink.com/coins/128x128/paypie.png'
-				}
-				...
-			],
-			price: 'USD',
-			updateInterval: 30000, // every 30 seconds
-			animationSpeed: 0,
-			url: 'https://min-api.cryptocompare.com/data/pricemulti?'
-		}
-	}
+  {
+    module: 'crypto',
+    header: 'Cryptocurrency Market',
+    position: 'top_right', // This can be in any location. Best is left or right layouts.
+    config: {
+      cryptos: [
+        {
+          code: 'BTC',
+          displayName: 'Bitcoin',
+          iconUrl: 'https://coinwink.com/coins/128x128/bitcoin.png'
+        },
+        {
+          code: 'ETH',
+          displayName: 'Ethereum',
+          iconUrl: 'https://coinwink.com/coins/128x128/ethereum.png'
+        },
+        {
+          code: 'PLR',
+          displayName: 'Pillar',
+          iconUrl: 'https://pillarproject.io/wp-content/uploads/2018/02/pillarproject.jpg'
+        },
+        {
+          code: 'PPP',
+          displayName: 'PayPie',
+          iconUrl: 'https://coinwink.com/coins/128x128/paypie.png'
+        }
+        ...
+      ],
+      price: 'USD',
+      updateInterval: 30000, // every 30 seconds
+      animationSpeed: 0,
+      url: 'https://min-api.cryptocompare.com/data/pricemulti?'
+    }
+  }
 ]
 ````
 
